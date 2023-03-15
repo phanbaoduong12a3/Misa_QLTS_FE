@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300;1,400;1,500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.input-number{
+    position: relative;
+}
+
+.input-number__class{
+    height: 36px;
+    margin-top: 8px;
+    padding-right: 32px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    border: 1px solid #b3b3b3;
+    border-radius: 3px;
+    outline: none;
+    width: 100%;
+    text-align: right;
+    flex: 1;
+}
+
+.input-number__class:hover{
+    border-color: #1aa4c8;
+}
+
+.input-number .icon-up{
+    
+}
+
+.input-number .icon-UpAndDown{
+    background: url("@/assets/icon/qlts-icon.png") no-repeat -204px -332px;
+    width: 10px;
+    height: 20px;
+    position: absolute;
+    top: 18px;
+    right: 9px;
+}
